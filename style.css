@@ -1,0 +1,71 @@
+/* *,*::before,*::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+}
+
+body{
+    line-height: 1.5;
+    -webkit-font-smoothing:antialiased;
+}
+
+img,picture,video,canvas,svg{
+    display:block;
+    max-width: 100%;
+}
+input,button,textarea,select{
+    font:inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    overflow-wrap:break-word;
+}
+
+#root,#--next{
+    isolation: isolate;
+} */
+ body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+ }
+div.main{
+   display: flex;
+   flex-direction: row; 
+   
+    height: 100vh;
+    width: 80vw;
+    background-color: white;
+
+
+}
+
+div img{
+    height: 100%;
+    width: 30%;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+div.message{
+    height: 35%;
+    width: 80%;
+}
+
+form{
+    height: 65%;
+    width: 80%;
+}
+
+ button{
+    background-color: rgb(46, 67, 46);
+    border-radius: 4px;
+    color: white;
+    text-align: center; 
+ }
