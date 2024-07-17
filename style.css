@@ -30,11 +30,13 @@ p,h1,h2,h3,h4,h5,h6{
     margin: 0;
     height: 100vh;
     background-color: black;
+    display: flex;
+    
+    justify-content: center;
  }
 div.main{
    display: flex;
    flex-direction: row; 
-   
     height: 100vh;
     width: 80vw;
     background-color: white;
@@ -47,7 +49,7 @@ div img{
     width: 30%;
     
 }
-img{
+ div>img{
     height: 100%;
     width: 100%;
 }
