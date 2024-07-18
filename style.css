@@ -40,8 +40,6 @@ div.main{
     height: 100vh;
     width: 80vw;
     background-color: white;
-
-
 }
 
 div img{
@@ -56,7 +54,7 @@ div img{
 
 
 div.message{
-    height: 35%;
+    height: 100%;
     width: 80%;
 }
 
@@ -70,4 +68,15 @@ form{
     border-radius: 4px;
     color: white;
     text-align: center; 
+ }
+
+ div.message > p,.submit{ 
+    height: 35%;
+    width: 80%;
+   
+    margin: 0;
+ }
+
+ div.message{
+    background-color: rgb(240, 240, 240);
  }
