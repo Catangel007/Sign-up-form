@@ -31,7 +31,6 @@ p,h1,h2,h3,h4,h5,h6{
     height: 100vh;
     background-color: black;
     display: flex;
-    
     justify-content: center;
  }
 div.main{
@@ -54,8 +53,12 @@ div img{
 
 
 div.message{
-    height: 100%;
+    height: calc(100% - 100px);
     width: 80%;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 100px;
 }
 
 form{
@@ -77,6 +80,8 @@ form{
     margin: 0;
  }
 
- div.message{
-    background-color: rgb(240, 240, 240);
+ fieldset{
+    margin-top: 0;
  }
+
+ 
